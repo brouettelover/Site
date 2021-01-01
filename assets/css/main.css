@@ -16,7 +16,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video, mark {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -31,7 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.highlight{
+	font-size:  larger;
+	color: red;
 
+}
 ol, ul {
 	list-style: none;
 }
